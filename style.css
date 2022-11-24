@@ -1,0 +1,88 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: 200px;
+    left: 600px;
+    background-color: #0d1a2d;
+    font-family: 'Outfit', sans-serif;
+}
+main{
+    width: 300px;
+    height: 515px;
+    background-color: rgba(21,39,63,255);
+    position: relative;
+    border-radius: 10px;
+}
+main .eg h1{
+    color: white;
+    font-size: 20px;
+} 
+main .eg p{
+    color: #7085a3;
+}
+main .eg .time{
+    display: flex;
+}
+main .eg .eth{
+    display: flex;
+}
+main .eg .eth_time{
+    display: flex;
+    justify-content: space-between;
+}
+main .eg .eth img{
+    width: 10px;
+    height: 15px; 
+    margin-top: 18px;
+} 
+main .eg .eth p{
+    color: #3edcde;
+    margin-left: 5px;
+}
+main .eg .time img{
+    width: 15px;
+    height: 15px;
+    margin-top: 15px;
+}
+main .eg .time p{
+    margin-top: 13px; 
+    margin-left: 5px;
+}
+main .eg .creation span{
+    color: white;
+}
+main .eg .line{
+    height: 0.5px;
+    width: 100%;
+    background-color: #293b53;
+}
+main .eg .creation{
+    display: flex;
+    margin-top: 15px; 
+    justify-content: space-around;
+}
+main .eg .creation img{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 5px;
+    border-radius: 50%; 
+    border: 1px solid white;
+    margin-right: 15px;
+}
+main .eg{
+    position: absolute;
+    top: 270px;
+    padding: 20px;
+} main .eg .creation p{
+    margin-top: 5px;
+    font-size: 14px;
+    margin-right: 50px;
+}
+main .main_img img{
+    height: 265px;
+    width: 265px;
+    border-radius: 10px;
+    margin-left: 18px;
+    margin-top: 20px;
+}
